@@ -1,0 +1,62 @@
+.todoCard {
+  width: 150px;
+  height: 200px;
+  padding: 10px;
+  box-shadow: 2px 2px;
+  background-color: rgb(212, 168, 116);
+  margin: 10px;
+  position: relative;
+}
+.cardIcons {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+
+  display: flex;
+}
+.deleteIcon {
+  margin-left: 10px;
+  cursor: pointer;
+}
+.editIcon {
+  cursor: pointer;
+}
+.progress {
+  position: absolute;
+  bottom: 0px;
+  right: -10px;
+}
+.inProgress {
+  padding: 4px;
+  background-color: rgb(222, 130, 18);
+}
+.completed {
+  padding: 4px;
+  background-color: rgb(8, 124, 6);
+}
+.notStarted {
+  padding: 4px;
+  background-color: rgb(192, 56, 22);
+}
+.modalFormContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.modalForm {
+  position: relative;
+  background-color: aqua;
+  width: 400px;
+  padding: 10px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.exitIcon {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
